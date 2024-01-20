@@ -1,0 +1,126 @@
+html {
+    font-size: 1em;
+    line-height: 1.4;
+}
+body{
+	margin:0;
+	font: 16px/26px Helvetica, Helvetica Neue, Arial;
+	background: images\sir2.jpg;
+}
+
+.ab li {
+list-style-type: none;
+}
+
+.ab li:before{
+
+ font-family: 'Montserrat', sans-serif;
+ font-weight: 400;
+ color: #BDB76B;
+ content: "🍀";
+ padding-right: 7px;
+}
+
+h1{
+    padding-left: 10px;
+}
+
+p{
+    padding: 10px 670px 10px 10px;
+	text-align: justify;
+}
+
+
+.header-container {
+    border-bottom: 20px solid #FAFAD2;
+	position: fixed;
+	width: 100%;
+	z-index: 800;
+}
+
+.footer-container,
+.main aside {
+    border-top: 20px solid #FAFAD2;
+}
+
+.header-container,
+.footer-container,
+.main aside {
+    background: #BDB76B;
+}
+
+.header-container,
+.main aside {
+		box-shadow: 0 5px 10px #aaa;
+}
+
+aside {
+	width: 500px;
+	height: 350px;
+	background: #FAFAD2;
+	margin-right: 20px;
+}
+
+.main aside img{
+	margin: 10px;
+}
+
+.title {
+    color: white;
+	float: left;
+}
+
+nav {
+	float: right;
+	width: 45%;
+}
+.nav1 {
+	float: center;
+	width: 45%;
+}	
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+nav a {
+    display: block;
+	float: left; 
+	width: 25%;
+	margin: 0 1.7%;
+	padding: 20px 2%;
+	margin-bottom: 0;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    background: #808000;	 
+}
+
+nav a:hover{
+	   background:#556B2F;
+	}
+
+nav a:hover {
+    text-decoration: underline;
+}
+nav li:first-child a {
+        margin-left: 0;
+    }
+nav li:last-child a {
+        margin-right: 0;
+    }
+
+.main aside {
+    color: white;
+    padding: 50px;
+	float: right;
+	border-top: 20px solid #FAFAD2;
+	border-bottom: 20px solid #FAFAD2;
+}
+
+.footer-container footer {
+    color: white;
+    padding: 20px 0;
+}
